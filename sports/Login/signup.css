@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	font-family: 'Flamenco', cursive;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.sign_up{
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 80%;
+	transform: translate(-80%, -50%);
+	align-items: center;
+	background-color: rgba(0,0,0,0.6);
+}
+.sign_up h1{
+	letter-spacing: 1px;
+	align-items: center;
+	margin-left: 145px;
+	margin-top: 20px;
+	color: Lightblue;
+}
+.text,.text1,.text2,.text3,.text4,.text5{
+	outline: none;
+	margin-top: 50px;
+	background:none;
+	display: block;
+	margin-bottom: 20px auto;
+	text-align: center; 
+	border: 2px solid LightBlue;
+	border-radius: 200px;
+	padding:10px 40px;
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: 'Flamenco', cursive;
+	color: white;
+	transition: 0.25s;
+}
+.text:focus,.text1:focus,.text2:focus,.text3:focus,.text4:focus,.text5:focus{
+	width: 280px;
+	border-color: orange;
+}
+.text1{
+	margin-top: 100px;
+}
+.text2{
+	margin-top: 150px;
+}
+.text3{
+	margin-top: 200px;
+}
+.text4{
+	margin-top: 250px;
+}
+.text5{
+	margin-top:300px;
+}
+.btn{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 30px;
+	font-weight: 500px;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2;
+	color: white;
+	font-family: 'Flamenco', cursive;
+}
+.btn-full{
+	outline: none;
+	margin-top: 350px;
+	margin-left: 145px;
+	background-color: transparent;
+	margin-right: 15px;
+	border: 1px solid white;
+	font-size: 15px;
+	border-color: LightBlue;
+}
+.btn-full:hover{
+	background-color: LightBlue;
+}
+.sign_up h6 a{
+	margin-top: 400px;
+	margin-left: 80px;
+	font-size: 20px;
+	text-decoration: none;
+}
+.sign_up h6 a:hover{
+	color: yellow;
+}
